@@ -121,12 +121,6 @@ img {
  
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
-.header{
-  background-color: #FFF8F3;
-  background-image: url(../images/header_bg.png);
-  background-repeat: no-repeat;
-  background-position: bottom right;
-}
 
 /*===== NAV =====*/
 .nav {
@@ -421,7 +415,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   margin: 0;
-  color: rgb(10, 1, 1);
+  color: var(--first-color);
   font-size: 1.2rem;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
