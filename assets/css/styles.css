@@ -422,7 +422,54 @@ img {
   /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
   pointer-events: none;
 }
+/* for resume  */
+.section_resume{
+  max-width: 1080px;
+  margin: auto;
+  padding: 20px; /* Add some padding to the section */
+}
 
+.resume-container{
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+  gap: 50px;
+}
+
+.resume-column{
+  background: #fff;
+  flex: 1; /* Ensure both columns take equal space */
+  padding: 20px; /* Add padding inside each column */
+  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15); /* Optional: Add some shadow for better look */
+  border-radius: 0.5rem; /* Optional: Add border radius for rounded corners */
+}
+
+.resume-column-title{
+  color:  #474747;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px; /* Add some space below the title */
+}
+
+.items-title{
+  color: #474747;
+  font-size: 25px;
+  margin-bottom: 10px; /* Add some space below the item title */
+}
+
+.resume-column-location{
+  color:  #757575;
+  font-size: 20px;
+  margin-bottom: 10px; /* Add some space below the location */
+}
+
+.resume-des{
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 20px; /* Add some space below the description */
+}
 /* ===== CONTACT =====*/
 .contact-icon {
   display: flex;
