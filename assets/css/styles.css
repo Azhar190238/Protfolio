@@ -9,7 +9,7 @@
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
   --hue-color: 224;
-  --first-color: hsl(var(--hue-color), 89%, 60%);
+  --first-color: #FD6E0A;
   --second-color: hsl(var(--hue-color), 56%, 12%);
   /*===== Fuente y tipografia =====*/
   --body-font: "Poppins", sans-serif;
@@ -217,6 +217,7 @@ img {
   display: flex;
   color: blue;
   flex-direction: column;
+  margin-top: 20px;
 }
 
 .home__social-icon {
@@ -233,15 +234,18 @@ img {
 }
 
 .home__img {
+  background-image: url(../img/header_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   position: absolute;
   right: 0;
   bottom: 0;
   width: 260px;
 }
 
-.home__blob {
+/* .home__blob {
   fill: var(--first-color);
-}
+} */
 
 .home__blob-img {
   width: 360px;
@@ -279,7 +283,7 @@ img {
 .about__img img {
   width: 200px;
   border-radius: 0.5rem;
-  background-color: blue;
+  background-color: var(--first-color);
 }
 
 /* ===== SKILLS New =====*/
@@ -379,6 +383,7 @@ img {
 
 .skills__img {
   border-radius: 0.5rem;
+  background-image: var(--first-color);
 }
 
 /* ===== WORK =====*/
